@@ -539,7 +539,7 @@ frutasvermelhas = {
 
 //-----------------------------------------------------------------------------//
 
-const closebtn = document.querySelector(".close p")
+const closebtn = document.querySelector(".btn-close")
 
 closebtn.addEventListener("click", ()=> {
     const info = document.querySelector(".back-ice")

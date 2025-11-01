@@ -38,6 +38,10 @@ main{
     width: 60%;
 }
 
+.sized-box{
+    height: 200px;
+}
+
 .search{
     width: 90%;
     padding: 10px 7px;
@@ -100,25 +104,39 @@ main{
     position: fixed;
     top: 0;
     display: none;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .ice-data{
     width: 90%;
-    height: 90%;
+    height: 80%;
     overflow-y: scroll;
     padding: 10px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 .close{
+    width: 90%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
     display: flex;
-    justify-content: end;
-    color: red;
-    font-weight: bold;
-    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-close{
+    background-color: rgb(40, 40, 40);
+    border: none;
+    width: 70%;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
 }
 
 .table-info{
@@ -221,9 +239,14 @@ main{
 }
 
 
-    ::-webkit-scrollbar{
+    .ice-data::-webkit-scrollbar{
         display: none;
     }
+
+    .list-icecream::-webkit-scrollbar{
+        display: none;
+    }
+
 
 @media(max-width: 400px){
 
@@ -274,6 +297,10 @@ main{
     }
 
     .ice-data{
+        width: 800px;
+    }
+
+    .close{
         width: 800px;
     }
 
