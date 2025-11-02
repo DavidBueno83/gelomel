@@ -64,8 +64,9 @@ const list = [
     maisinfo: [
         "Contém aromatizante sintético idêntico ao natural.",
         "Colorido artificialmente.",
-        "Alto em açúcar adicionado."
-    ]
+    ],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO."]
+    
 },
 
 abacaxihortela = {
@@ -552,12 +553,14 @@ closebtn.addEventListener("click", ()=> {
     const maisinfo = document.querySelector(".maisinfo")
     const quant = document.querySelector('.quantidade')
     const pquant = document.querySelector('.quantidade p')
+    const altoEm = document.querySelector('.alto-em')
 
     const liComp = document.querySelectorAll(".comp li")
     const lig100 = document.querySelectorAll(".g100 li")
     const lig60 = document.querySelectorAll(".g60 li")
     const livd = document.querySelectorAll(".vd li")
     const limaisinfo = document.querySelectorAll(".maisinfo li")
+    const altoEmCard = document.querySelectorAll('.alto-em-card')
 
     liComp.forEach((li, index)=> {
         if (index === 0) return
@@ -586,13 +589,17 @@ closebtn.addEventListener("click", ()=> {
     if(pquant){
          quant.removeChild(pquant)
     }
+
+    altoEmCard.forEach((item)=> {
+        altoEm.removeChild(item)
+    })
    
 
 })
 
 //-----------------------------------------------------------------------------//
 
-const showIce = (nameIce, listComp, contem, ingr, alergic, maisin ) => {
+const showIce = (nameIce, listComp, contem, ingr, alergic, maisin, alto ) => {
 
     const info = document.querySelector(".back-ice")
     info.style.display = "flex"
@@ -609,6 +616,7 @@ const showIce = (nameIce, listComp, contem, ingr, alergic, maisin ) => {
     const ulg60 = document.querySelector('.g60')
     const ulvd = document.querySelector('.vd')
     const maisinfo = document.querySelector(".maisinfo")
+    const altoEm = document.querySelector('.alto-em')
 
     listComp.forEach((item) => {
         const liComp = document.createElement("li")
@@ -650,13 +658,41 @@ const showIce = (nameIce, listComp, contem, ingr, alergic, maisin ) => {
         })
     }
 
+    if(alto){
+        altoEm.style.display = 'flex'
+        alto.forEach((item) => {
+            const labelAlto = document.createElement('div')
+            labelAlto.innerHTML = item
+            labelAlto.classList.add('alto-em-card')
+            altoEm.appendChild(labelAlto)
+        })
+    }else{
+        altoEm.style.display = 'none'
+    }
+
     ingredientes.innerHTML = ingr
 
 }
 
 //-----------------------------------------------------------------------------//
 
-const listIcecream = document.querySelector(".list")
+const listIcecream = document.querySelector(".list");
+let lista = []; // armazenará os sorvetes da API
+
+// 🔹 busca sorvetes da API
+async function loadIcecreams() {
+  try {
+    const res = await fetch("http://localhost:4000/api");
+    if (!res.ok) throw new Error("Erro ao buscar sorvetes");
+
+    lista = await res.json();
+    console.log(lista)
+    showList(); // exibe todos ao carregar
+  } catch (err) {
+    console.error("Erro ao carregar lista:", err);
+  }
+}
+
 
 
 const showList = (nameIce) => {
@@ -667,7 +703,25 @@ const showList = (nameIce) => {
         listIcecream.removeChild(li)
     })
 
-    list.forEach((item) => {
+    /** 
+    lista.forEach((item) => {
+        if(item.nome.includes(nameIce) || nameIce == null){
+        const liIcecream = document.createElement("li")
+        const iceTitle = document.createElement("h2")
+        iceTitle.innerHTML = item.nome
+        liIcecream.appendChild(iceTitle)
+        listIcecream.appendChild(liIcecream)
+        liIcecream.addEventListener("click", ()=> {
+            showIce(item.nome, item.nutricoes, item.nao_contem, item.ingredientes, item.alergicos, item.contem)
+        })
+        } else {
+            return
+        }
+
+    })
+        */
+
+        list.forEach((item) => {
         if(item.name.includes(nameIce) || nameIce == null){
         const liIcecream = document.createElement("li")
         const iceTitle = document.createElement("h2")
@@ -675,12 +729,11 @@ const showList = (nameIce) => {
         liIcecream.appendChild(iceTitle)
         listIcecream.appendChild(liIcecream)
         liIcecream.addEventListener("click", ()=> {
-            showIce(item.name, item.comp, item.quantsignificativas, item.ingredientes, item.alergicos, item.maisinfo)
+            showIce(item.name, item.comp, item.quantsignificativas, item.ingredientes, item.alergicos, item.maisinfo, item.alto_em)
         })
         } else {
             return
         }
-
     })
 
 }
@@ -691,5 +744,7 @@ inputIce.addEventListener("input", () => {
   showList(inputIce.value.toUpperCase());
 });
 
+
+//loadIcecreams()
 
 showList()

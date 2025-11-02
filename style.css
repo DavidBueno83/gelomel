@@ -231,6 +231,42 @@ main{
     font-size: 13px;
 }
 
+.alto{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.alto-em{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    justify-content: flex-start;
+}
+
+.alto-em-card{
+    background-color: rgb(40, 40, 40);
+    color: white;
+    width: 100px;
+    padding: 5px;
+    min-height: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.alto-em-card:first-child{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
 .nameice{
     text-align: center;
     font-size: 24px;
