@@ -1,75 +1,31 @@
 const list = [
 
-    setebelo = {
+setebelo = {
+    id: 1,
     name: "7 BELO",
     ingredientes: "Ingredientes: água, açúcar, leite em pó integral, glicose líquida, nata, preparado de frutas silvestres (açúcar, amora, água, xarope de glicose, mirtilo, acidulante: ácido cítrico, estabilizante: pectina, conservante: sorbato de potássio, aromatizante e corantes artificiais: ponceau 4r e vermelho amaranto), pasta saborizante de framboesa (água, amido modificado, amido, edulcorante: sorbitol, aromatizante sintético idêntico ao natural, acidulante: ácido cítrico, corante artificial: azorrubina e conservante: sorbato de potássio), gordura de palma, mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar e carragena), regulador de acidez: ácido cítrico e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
-    alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, AVELÃS, SOJA, CASTANHA-DE-CAJU, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
+    alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, AVELÃS, SOJA, CASTANHA-DO-PARÁ, CASTANHA-DE-CAJU, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
     comp: [
-        valorenergetico = {
-            name: "Valor energético (kcal)",
-            g100: 169,
-            g60: 101,
-            vd: 5
-        },
-        carboidratos = {
-            name: "Carboidratos (g)",
-            g100: 25,
-            g60: 15,
-            vd: 5
-        },
-        acucarestotais = {
-            name: "Açúcares totais (g)",
-            g100: 20,
-            g60: 12,
-            vd: 0
-        },
-        acucaresadicionados = {
-            name: "Açúcares adicionados (g)",
-            g100: 16,
-            g60: 9.3,
-            vd: 19
-        },
-        proteinas = {
-            name: "Proteínas (g)",
-            g100: 4.5,
-            g60: 2.7,
-            vd: 5
-        },
-        gordurastotais = {
-            name: "Gorduras totais (g)",
-            g100: 6.6,
-            g60: 3.9,
-            vd: 6
-        },
-        gordurassaturadas = {
-            name: "Gorduras saturadas (g)",
-            g100: 3.7,
-            g60: 2.2,
-            vd: 11
-        },
-        gordurastrans = {
-            name: "Gorduras trans (g)",
-            g100: 0.2,
-            g60: 0.1,
-            vd: 5
-        },
-        sodio = {
-            name: "Sódio (mg)",
-            g100: 45,
-            g60: 27,
-            vd: 1
-        },
+        valorenergetico = { name: "Valor energético (kcal)", g100: 169, g60: 101, vd: 5 },
+        carboidratos = { name: "Carboidratos (g)", g100: 25, g60: 15, vd: 5 },
+        acucarestotais = { name: "Açúcares totais (g)", g100: 20, g60: 12, vd: 0 },
+        acucaresadicionados = { name: "Açúcares adicionados (g)", g100: 16, g60: 9.3, vd: 19 },
+        proteinas = { name: "Proteínas (g)", g100: 4.5, g60: 2.7, vd: 5 },
+        gordurastotais = { name: "Gorduras totais (g)", g100: 6.6, g60: 3.9, vd: 6 },
+        gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 3.7, g60: 2.2, vd: 11 },
+        gordurastrans = { name: "Gorduras trans (g)", g100: 0.2, g60: 0.1, vd: 5 },
+        sodio = { name: "Sódio (mg)", g100: 45, g60: 27, vd: 1 },
     ],
     quantsignificativas: "Não contém quantidades significativas de fibras alimentares.",
     maisinfo: [
         "Contém aromatizante sintético idêntico ao natural.",
-        "Colorido artificialmente.",
+        "Colorido artificialmente."
     ],
-    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO."]
-    
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO"]
 },
 
 abacaxihortela = {
+    id: 2,
     name: "ABACAXI COM HORTELÃ",
     ingredientes: "Ingredientes: abacaxi, água, açúcar, mix de estabilizantes em pó (dextrose, xarope de glucose em pó, gordura vegetal, proteína do leite, ésteres de mono e diglicerídeos de ácidos graxos com ácido lático, glucose em pó, alginato de propilenglicol, goma jataí, carboximetilcelulose, goma guar, maltodextrina, proteína de soja e acidulante: ácido cítrico), hortelã, saborizante de abacaxi em pó [açúcar, amido de milho, regulador de acidez: ácido fumárico, aromatizante artificial e corantes artificiais: amarelo tartrazina (INS 102) e amarelo crepúsculo] e pó estabilizante para sorvetes (açúcar e espessantes: goma guar, goma xantana e carboximetilcelulose). CONTÉM GLÚTEN.",
     alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE E SOJA. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DO-PARÁ, CASTANHA-DE-CAJU, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
@@ -87,10 +43,12 @@ abacaxihortela = {
     maisinfo: [
         "Aromatizado artificialmente.",
         "Colorido artificialmente."
-    ]
+    ],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO"]
 },
 
 acai = {
+    id: 3,
     name: "AÇAÍ",
     ingredientes: "Ingredientes: polpa de açaí, água, açúcar, dextrose, mistura de hidrocolóides (gelatina, açúcar, mono e diglicerídeos de ácidos graxos, carboximetilcelulose sódica, goma jataí e goma guar) e acidulante: ácido cítrico. CONTÉM GLÚTEN.",
     alergicos: "ALÉRGICOS: PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, OVO, LEITE, SOJA, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DE-CAJU, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
@@ -101,13 +59,15 @@ acai = {
         acucaresadicionados = { name: "Açúcares adicionados (g)", g100: 24, g60: 15, vd: 30 },
         gordurastotais = { name: "Gorduras totais (g)", g100: 4.9, g60: 3, vd: 5 },
         gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 0.2, g60: 0.1, vd: 1 },
-        fibras = { name: "Fibras alimentares (g)", g100: 6.8, g60: 4.1, vd: 16 }
+        fibras = { name: "Fibras alimentares (g)", g100: 6.8, g60: 4.1, vd: 16 },
     ],
     quantsignificativas: "Não contém quantidades significativas de proteínas, gorduras trans e sódio.",
-    maisinfo: []
+    maisinfo: [],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO"]
 },
 
-acaitigela = {
+acaiparatigela = {
+    id: 4,
     name: "AÇAÍ PARA TIGELA",
     ingredientes: "Ingredientes: polpa de açaí, água, açúcar, dextrose, mistura de hidrocolóides (gelatina, açúcar, mono e diglicerídeos de ácidos graxos, carboximetilcelulose sódica, goma jataí e goma guar) e acidulante: ácido cítrico. CONTÉM GLÚTEN.",
     alergicos: "ALÉRGICOS: PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, OVO, LEITE, SOJA, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DE-CAJU, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
@@ -118,13 +78,15 @@ acaitigela = {
         acucaresadicionados = { name: "Açúcares adicionados (g)", g100: 24, g60: 15, vd: 30 },
         gordurastotais = { name: "Gorduras totais (g)", g100: 4.9, g60: 3, vd: 5 },
         gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 0.2, g60: 0.1, vd: 1 },
-        fibras = { name: "Fibras alimentares (g)", g100: 6.8, g60: 4.1, vd: 16 }
+        fibras = { name: "Fibras alimentares (g)", g100: 6.8, g60: 4.1, vd: 16 },
     ],
     quantsignificativas: "Não contém quantidades significativas de proteínas, gorduras trans e sódio.",
-    maisinfo: []
+    maisinfo: [],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO"]
 },
 
 ameixa = {
+    id: 5,
     name: "AMEIXA",
     ingredientes: "Ingredientes: água, açúcar, ameixa seca, leite em pó integral, glicose líquida, nata, ovo em pó, gordura de palma, mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar e carragena) e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
     alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE E OVO. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, AVELÃS, SOJA, CASTANHA-DO-PARÁ, CASTANHA-DE-CAJU, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
@@ -137,13 +99,15 @@ ameixa = {
         gordurastotais = { name: "Gorduras totais (g)", g100: 5.7, g60: 3.4, vd: 5 },
         gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 3.1, g60: 1.8, vd: 9 },
         fibras = { name: "Fibras alimentares (g)", g100: 1, g60: 0.6, vd: 2 },
-        sodio = { name: "Sódio (mg)", g100: 48, g60: 29, vd: 1 }
+        sodio = { name: "Sódio (mg)", g100: 48, g60: 29, vd: 1 },
     ],
     quantsignificativas: "Não contém quantidades significativas de gorduras trans.",
-    maisinfo: []
+    maisinfo: [],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO"]
 },
 
 amendoimtrufado = {
+    id: 6,
     name: "AMENDOIM TRUFADO",
     ingredientes: "Ingredientes: água, açúcar, amendoim, leite em pó integral, recheio de cacau com castanha-de-caju (açúcar, óleo vegetal de girassol, cacau em pó, gordura vegetal, leite em pó integral, castanha-de-caju, emulsificante: lecitina de soja e aromatizantes), glicose líquida, nata, ovo em pó, gordura de palma, mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar e carragena) e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
     alergicos: "ALÉRGICOS: CONTÉM AMENDOIM E CASTANHA-DE-CAJU. CONTÉM DERIVADOS DE LEITE, OVO E SOJA. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMÊNDOA, AVELÃS, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
@@ -156,15 +120,15 @@ amendoimtrufado = {
         gordurastotais = { name: "Gorduras totais (g)", g100: 13, g60: 7.9, vd: 12 },
         gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 4.5, g60: 2.7, vd: 14 },
         fibras = { name: "Fibras alimentares (g)", g100: 1.3, g60: 0.8, vd: 3 },
-        sodio = { name: "Sódio (mg)", g100: 65, g60: 39, vd: 2 }
+        sodio = { name: "Sódio (mg)", g100: 65, g60: 39, vd: 2 },
     ],
     quantsignificativas: "Não contém quantidades significativas de gorduras trans.",
-    maisinfo: [
-        "Colorido aromatizante."
-    ]
+    maisinfo: ["Colorido artificialmente."],
+    alto_em: ["ALTO EM", "GORDURAS SATURADAS", "AÇÚCAR ADICIONADO"]
 },
 
 bananacaramelada = {
+    id: 7,
     name: "BANANA CARAMELADA",
     ingredientes: "Ingredientes: água, banana, açúcar, leite em pó integral, glicose líquida, nata, gordura de palma, saborizante de banana em pó [açúcar, amido de milho, aromatizante sintético idêntico ao natural, corantes artificiais: amarelo tartrazina (INS 102) e amarelo crepúsculo] e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
     alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, AVELÃS, SOJA, CASTANHA-DO-PARÁ, CASTANHA-DE-CAJU, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
@@ -177,148 +141,167 @@ bananacaramelada = {
         gordurastotais = { name: "Gorduras totais (g)", g100: 5.3, g60: 3.2, vd: 5 },
         gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 3, g60: 1.8, vd: 9 },
         fibras = { name: "Fibras alimentares (g)", g100: 0.6, g60: 0.4, vd: 2 },
-        sodio = { name: "Sódio (mg)", g100: 35, g60: 21, vd: 1 }
+        sodio = { name: "Sódio (mg)", g100: 35, g60: 21, vd: 1 },
     ],
     quantsignificativas: "Não contém quantidades significativas de gorduras trans.",
     maisinfo: [
         "Contém aromatizante sintético idêntico ao natural.",
         "Colorido artificialmente."
-    ]
+    ],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO"]
 },
 
 
 butia = {
+    id: 8,
     name: "BUTIÁ",
     ingredientes: "Ingredientes: butiá, açúcar, água, base estabilizante (dextrose, xarope de glucose em pó, gordura vegetal, proteína do leite, ésteres de mono e diglicerídeos de ácidos graxos com ácido lático, glicose em pó, alginato de propilenglicol, goma jataí, carboximetilcelulose, goma guar, maltodextrina, proteína de soja e ácido cítrico), estabilizante em pó para sorvetes (açúcar, espessantes: goma guar, goma xantana e carboximetilcelulose). CONTÉM GLÚTEN.",
-    alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE E SOJA. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DE-CAJU, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
+    alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE E SOJA. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DO-PARÁ, CASTANHA-DE-CAJU, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
     comp: [
-        valorenergetico = { name: 'Valor energético (kcal)', g100: 165, g60: 99, vd: 5 },
-        carboidratos = { name: 'Carboidratos (g)', g100: 39, g60: 23, vd: 8 },
-        acucarestotais = { name: 'Açúcares totais (g)', g100: 28, g60: 17, vd: 0 },
-        acucaresadicionados = { name: 'Açúcares adicionados (g)', g100: 28, g60: 17, vd: 34 },
-        proteinas = { name: 'Proteínas (g)', g100: 1.1, g60: 0.6, vd: 1 },
-        gordurastotais = { name: 'Gorduras totais (g)', g100: 1.4, g60: 0.8, vd: 1 },
-        gordurassaturadas = { name: 'Gorduras saturadas (g)', g100: 0.5, g60: 0.3, vd: 2 },
-        fibras = { name: 'Fibras alimentares (g)', g100: 3.4, g60: 2, vd: 8 },
-        sodio = { name: 'Sódio (mg)', g100: 15, g60: 9, vd: 0 }
+        valorenergetico = { name: "Valor energético (kcal)", g100: 165, g60: 99, vd: 5 },
+        carboidratos = { name: "Carboidratos (g)", g100: 39, g60: 23, vd: 8 },
+        acucarestotais = { name: "Açúcares totais (g)", g100: 28, g60: 17, vd: 0 },
+        acucaresadicionados = { name: "Açúcares adicionados (g)", g100: 28, g60: 17, vd: 34 },
+        proteinas = { name: "Proteínas (g)", g100: 1.1, g60: 0.6, vd: 1 },
+        gordurastotais = { name: "Gorduras totais (g)", g100: 1.4, g60: 0.8, vd: 1 },
+        gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 0.5, g60: 0.3, vd: 2 },
+        fibras = { name: "Fibras alimentares (g)", g100: 3.4, g60: 2, vd: 8 },
+        sodio = { name: "Sódio (mg)", g100: 15, g60: 9, vd: 0 },
     ],
     quantsignificativas: "Não contém quantidades significativas de gorduras trans.",
-    maisinfo: []
+    maisinfo: [],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO"]
 },
 
 cappuccino = {
+    id: 9,
     name: "CAPPUCCINO",
     ingredientes: "Ingredientes: água, açúcar, leite em pó integral, recheio de cacau com castanha-de-caju e avelãs (açúcar, óleo vegetal de girassol, gordura vegetal, castanha-de-caju, cacau em pó, dextrose, avelã, leite em pó desnatado, soro de leite em pó, emulsificante: lecitina de soja e aromatizantes), glicose líquida, nata, gordura de palma, café solúvel, mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar e carragena), canela em pó e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
-    alergicos: "ALÉRGICOS: CONTÉM AVELÃS E CASTANHA-DE-CAJU. CONTÉM DERIVADOS DE LEITE E SOJA. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
+    alergicos: "ALÉRGICOS: CONTÉM AVELÃS E CASTANHA-DE-CAJU. CONTÉM DERIVADOS DE LEITE E SOJA. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊND���A, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
     comp: [
-        valorenergetico = { name: 'Valor energético (kcal)', g100: 184, g60: 110, vd: 6 },
-        carboidratos = { name: 'Carboidratos (g)', g100: 24, g60: 14, vd: 5 },
-        acucarestotais = { name: 'Açúcares totais (g)', g100: 20, g60: 12, vd: 0 },
-        acucaresadicionados = { name: 'Açúcares adicionados (g)', g100: 16, g60: 9.3, vd: 19 },
-        proteinas = { name: 'Proteínas (g)', g100: 3.2, g60: 1.9, vd: 4 },
-        gordurastotais = { name: 'Gorduras totais (g)', g100: 8.5, g60: 5.1, vd: 8 },
-        gordurassaturadas = { name: 'Gorduras saturadas (g)', g100: 4.2, g60: 2.5, vd: 13 },
-        gordurastrans = { name: 'Gorduras trans (g)', g100: 0.2, g60: 0.1, vd: 5 },
-        sodio = { name: 'Sódio (mg)', g100: 53, g60: 32, vd: 2 }
+        valorenergetico = { name: "Valor energético (kcal)", g100: 184, g60: 110, vd: 6 },
+        carboidratos = { name: "Carboidratos (g)", g100: 24, g60: 14, vd: 5 },
+        acucarestotais = { name: "Açúcares totais (g)", g100: 20, g60: 12, vd: 0 },
+        acucaresadicionados = { name: "Açúcares adicionados (g)", g100: 16, g60: 9.3, vd: 19 },
+        proteinas = { name: "Proteínas (g)", g100: 3.2, g60: 1.9, vd: 4 },
+        gordurastotais = { name: "Gorduras totais (g)", g100: 8.5, g60: 5.1, vd: 8 },
+        gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 4.2, g60: 2.5, vd: 13 },
+        gordurastrans = { name: "Gorduras trans (g)", g100: 0.2, g60: 0.1, vd: 5 },
+        sodio = { name: "Sódio (mg)", g100: 53, g60: 32, vd: 2 },
     ],
     quantsignificativas: "Não contém quantidades significativas de fibras alimentares.",
-    maisinfo: ["Contém aromatizante."]
+    maisinfo: ['Contém aromatizante.'],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO", "GORDURAS SATURADAS"]
 },
 
 chocokinder = {
+    id: 10,
     name: "CHOCOKINDER",
     ingredientes: "Ingredientes: água, açúcar, leite em pó integral, recheio de cacau com castanha-de-caju e avelã (açúcar, óleo vegetal de girassol, gordura vegetal, castanha-de-caju, cacau em pó, dextrose, avelã, leite em pó desnatado, soro de leite em pó, emulsificante: lecitina de soja e aromatizantes), glicose líquida, nata, gordura de palma, saborizante de nata em pó (leite integral em pó, dextrose, leite desnatado em pó, ovo em pó e aromatizantes), mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar e carragena) e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
     alergicos: "ALÉRGICOS: CONTÉM CASTANHA-DE-CAJU E AVELÃ. CONTÉM DERIVADOS DE LEITE, OVO E SOJA. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
     comp: [
-        valorenergetico = { name: 'Valor energético (kcal)', g100: 190, g60: 114, vd: 6 },
-        carboidratos = { name: 'Carboidratos (g)', g100: 24, g60: 15, vd: 5 },
-        acucarestotais = { name: 'Açúcares totais (g)', g100: 21, g60: 13, vd: 0 },
-        acucaresadicionados = { name: 'Açúcares adicionados (g)', g100: 16, g60: 9.5, vd: 19 },
-        proteinas = { name: 'Proteínas (g)', g100: 3.4, g60: 2, vd: 4 },
-        gordurastotais = { name: 'Gorduras totais (g)', g100: 8.9, g60: 5.3, vd: 8 },
-        gordurassaturadas = { name: 'Gorduras saturadas (g)', g100: 4.4, g60: 2.6, vd: 13 },
-        gordurastrans = { name: 'Gorduras trans (g)', g100: 0.2, g60: 0.1, vd: 5 },
-        sodio = { name: 'Sódio (mg)', g100: 57, g60: 34, vd: 2 }
+        valorenergetico = { name: "Valor energético (kcal)", g100: 190, g60: 114, vd: 6 },
+        carboidratos = { name: "Carboidratos (g)", g100: 24, g60: 15, vd: 5 },
+        acucarestotais = { name: "Açúcares totais (g)", g100: 21, g60: 13, vd: 0 },
+        acucaresadicionados = { name: "Açúcares adicionados (g)", g100: 16, g60: 9.5, vd: 19 },
+        proteinas = { name: "Proteínas (g)", g100: 3.4, g60: 2, vd: 4 },
+        gordurastotais = { name: "Gorduras totais (g)", g100: 8.9, g60: 5.3, vd: 8 },
+        gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 4.4, g60: 2.6, vd: 13 },
+        gordurastrans = { name: "Gorduras trans (g)", g100: 0.2, g60: 0.1, vd: 5 },
+        sodio = { name: "Sódio (mg)", g100: 57, g60: 34, vd: 2 },
     ],
     quantsignificativas: "Não contém quantidades significativas de fibras alimentares.",
-    maisinfo: ["Contém aromatizante."]
+    maisinfo: ['Contém aromatizante.'],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO", "GORDURAS SATURADAS"]
 },
 
 chocolatebelga = {
+    id: 11,
     name: "CHOCOLATE BELGA",
-    ingredientes: "Ingredientes: água, açúcar, leite em pó integral, nata, glicose líquida, cacau em pó alcalino, gordura de palma, dextrose e mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar e carragena). CONTÉM GLÚTEN. CONTÉM LACTOSE.",
-    alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, SOJA, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DE-CAJU, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
+    ingredientes: "Ingredientes: água, açúcar, leite em pó integral, glicose líquida, nata, cacau em pó, chocolate belga (cacau, açúcar, manteiga de cacau, emulsificante lecitina de soja e aromatizante), gordura de palma, mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar, carragena) e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
+    alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE E SOJA. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DE-CAJU, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
     comp: [
-        valorenergetico = { name: 'Valor energético (kcal)', g100: 203, g60: 122, vd: 6 },
-        carboidratos = { name: 'Carboidratos (g)', g100: 25, g60: 15, vd: 5 },
-        acucarestotais = { name: 'Açúcares totais (g)', g100: 19, g60: 12, vd: 0 },
-        acucaresadicionados = { name: 'Açúcares adicionados (g)', g100: 14, g60: 8.7, vd: 17 },
-        proteinas = { name: 'Proteínas (g)', g100: 4.2, g60: 2.5, vd: 5 },
-        gordurastotais = { name: 'Gorduras totais (g)', g100: 10, g60: 5.8, vd: 9 },
-        gordurassaturadas = { name: 'Gorduras saturadas (g)', g100: 5.6, g60: 3.4, vd: 17 },
-        gordurastrans = { name: 'Gorduras trans (g)', g100: 0.2, g60: 0.1, vd: 5 },
-        fibras = { name: 'Fibras alimentares (g)', g100: 1.6, g60: 1, vd: 4 },
-        sodio = { name: 'Sódio (mg)', g100: 47, g60: 28, vd: 1 }
+        valorenergetico = { name: "Valor energético (kcal)", g100: 187, g60: 112, vd: 6 },
+        carboidratos = { name: "Carboidratos (g)", g100: 23, g60: 14, vd: 5 },
+        acucarestotais = { name: "Açúcares totais (g)", g100: 17, g60: 10, vd: 0 },
+        acucaresadicionados = { name: "Açúcares adicionados (g)", g100: 14, g60: 8.3, vd: 17 },
+        proteinas = { name: "Proteínas (g)", g100: 3.3, g60: 2, vd: 4 },
+        gordurastotais = { name: "Gorduras totais (g)", g100: 8.7, g60: 5.2, vd: 8 },
+        gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 5.2, g60: 3.1, vd: 15 },
+        gordurastrans = { name: "Gorduras trans (g)", g100: 0.3, g60: 0.2, vd: 15 },
+        sodio = { name: "Sódio (mg)", g100: 54, g60: 32, vd: 1 },
     ],
-    quantsignificativas: "",
-    maisinfo: []
+    quantsignificativas: "Não contém quantidades significativas de fibras alimentares.",
+    maisinfo: ["Colorido artificialmente."],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO", "GORDURAS SATURADAS"]
 },
+
 
 chocolatebranco = {
+    id: 12,
     name: "CHOCOLATE BRANCO",
-    ingredientes: "Ingredientes: água, açúcar, leite em pó integral, glicose líquida, nata, gordura de palma, mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar e carragena), saborizante de leite condensado e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
-    alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, SOJA, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DE-CAJU, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
+    ingredientes: "Ingredientes: água, açúcar, leite em pó integral, glicose líquida, nata, gordura de palma, chocolate branco (açúcar, manteiga de cacau, leite em pó integral, emulsificante: lecitina de soja e aromatizante), mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar e carragena) e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
+    alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE E SOJA. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DO-PARÁ, CASTANHA-DE-CAJU, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
     comp: [
-        valorenergetico = { name: 'Valor energético (kcal)', g100: 184, g60: 110, vd: 6 },
-        carboidratos = { name: 'Carboidratos (g)', g100: 26, g60: 16, vd: 5 },
-        acucarestotais = { name: 'Açúcares totais (g)', g100: 20, g60: 12, vd: 0 },
-        acucaresadicionados = { name: 'Açúcares adicionados (g)', g100: 17, g60: 10, vd: 19 },
-        proteinas = { name: 'Proteínas (g)', g100: 3.6, g60: 2.2, vd: 4 },
-        gordurastotais = { name: 'Gorduras totais (g)', g100: 7.6, g60: 4.6, vd: 7 },
-        gordurassaturadas = { name: 'Gorduras saturadas (g)', g100: 4.3, g60: 2.6, vd: 13 },
-        sodio = { name: 'Sódio (mg)', g100: 51, g60: 31, vd: 1 }
+        valorenergetico = { name: "Valor energético (kcal)", g100: 209, g60: 125, vd: 6 },
+        carboidratos = { name: "Carboidratos (g)", g100: 21, g60: 13, vd: 4 },
+        acucarestotais = { name: "Açúcares totais (g)", g100: 19, g60: 11, vd: 0 },
+        acucaresadicionados = { name: "Açúcares adicionados (g)", g100: 15, g60: 8.9, vd: 19 },
+        proteinas = { name: "Proteínas (g)", g100: 3.1, g60: 1.9, vd: 4 },
+        gordurastotais = { name: "Gorduras totais (g)", g100: 12, g60: 7.2, vd: 11 },
+        gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 7.3, g60: 4.4, vd: 22 },
+        gordurastrans = { name: "Gorduras trans (g)", g100: 0.3, g60: 0.2, vd: 15 },
+        sodio = { name: "Sódio (mg)", g100: 61, g60: 37, vd: 2 },
     ],
-    quantsignificativas: "Não contém quantidades significativas de gorduras trans e fibras alimentares.",
-    maisinfo: ["Contém aromatizante sintético idêntico ao natural."]
+    quantsignificativas: "Não contém quantidades significativas de fibras alimentares.",
+    maisinfo: ["Colorido artificialmente.", "Aromatizado artificialmente."],
+    alto_em: ["ALTO EM", "GORDURAS SATURADAS", "AÇÚCAR ADICIONADO"]
 },
 
-chocolatecomavelas = {
+
+chocolateavelas = {
+    id: 13,
     name: "CHOCOLATE COM AVELÃS",
-    ingredientes: "Ingredientes: água, açúcar, leite em pó integral, avelã, cacau em pó alcalino, glicose líquida, gordura de palma, nata, mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar e carragena), e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
-    alergicos: "ALÉRGICOS: CONTÉM AVELÃS E DERIVADOS DE LEITE. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, SOJA, AMENDOIM, AMÊNDOA, CASTANHA-DE-CAJU, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
+    ingredientes: "Ingredientes: água, açúcar, leite em pó integral, glicose líquida, nata, pasta de avelã com cacau (açúcar, óleo vegetal de girassol, cacau em pó, gordura vegetal, leite em pó integral, avelã, emulsificante: lecitina de soja e aromatizantes), gordura de palma, avelãs, mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar e carragena) e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
+    alergicos: "ALÉRGICOS: CONTÉM AVELÃ. CONTÉM DERIVADOS DE LEITE E SOJA. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, CASTANHA-DO-PARÁ, CASTANHA-DE-CAJU, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
     comp: [
-        valorenergetico = { name: 'Valor energético (kcal)', g100: 209, g60: 125, vd: 6 },
-        carboidratos = { name: 'Carboidratos (g)', g100: 27, g60: 16, vd: 5 },
-        acucarestotais = { name: 'Açúcares totais (g)', g100: 18, g60: 11, vd: 0 },
-        acucaresadicionados = { name: 'Açúcares adicionados (g)', g100: 14, g60: 8.5, vd: 17 },
-        proteinas = { name: 'Proteínas (g)', g100: 4.5, g60: 2.7, vd: 5 },
-        gordurastotais = { name: 'Gorduras totais (g)', g100: 10, g60: 6.1, vd: 9 },
-        gordurassaturadas = { name: 'Gorduras saturadas (g)', g100: 5.1, g60: 3.1, vd: 15 },
-        fibras = { name: 'Fibras alimentares (g)', g100: 2.5, g60: 1.5, vd: 6 },
-        sodio = { name: 'Sódio (mg)', g100: 50, g60: 30, vd: 1 }
+        valorenergetico = { name: "Valor energético (kcal)", g100: 218, g60: 131, vd: 7 },
+        carboidratos = { name: "Carboidratos (g)", g100: 21, g60: 13, vd: 4 },
+        acucarestotais = { name: "Açúcares totais (g)", g100: 18, g60: 11, vd: 0 },
+        acucaresadicionados = { name: "Açúcares adicionados (g)", g100: 14, g60: 8.3, vd: 17 },
+        proteinas = { name: "Proteínas (g)", g100: 3.7, g60: 2.2, vd: 4 },
+        gordurastotais = { name: "Gorduras totais (g)", g100: 13, g60: 7.9, vd: 12 },
+        gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 5.4, g60: 3.2, vd: 16 },
+        gordurastrans = { name: "Gorduras trans (g)", g100: 0.3, g60: 0.2, vd: 15 },
+        sodio = { name: "Sódio (mg)", g100: 54, g60: 32, vd: 1 },
     ],
-    quantsignificativas: "Não contém quantidades significativas de gorduras trans.",
-    maisinfo: []
+    quantsignificativas: "Não contém quantidades significativas de fibras alimentares.",
+    maisinfo: ["Contém aromatizante sintético idêntico ao natural."],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO"]
 },
 
-chocolatedark70 = {
+
+chocolate70 = {
+    id: 14,
     name: "CHOCOLATE DARK 70%",
-    ingredientes: "Ingredientes: água, açúcar, leite em pó integral, cacau em pó alcalino, glicose líquida, gordura de palma, nata, mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar e carragena) e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
-    alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, SOJA, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DE-CAJU, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
+    ingredientes: "Ingredientes: água, açúcar, leite em pó integral, glicose líquida, nata, chocolate amargo (pasta de cacau, açúcar, manteiga de cacau, emulsificante: lecitina de soja e aromatizante), cacau em pó, gordura de palma, mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar e carragena) e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
+    alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE E SOJA. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DE-PARÁ, CASTANHA-DE-CAJU, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
     comp: [
-        valorenergetico = { name: 'Valor energético (kcal)', g100: 192, g60: 115, vd: 6 },
-        carboidratos = { name: 'Carboidratos (g)', g100: 23, g60: 14, vd: 5 },
-        acucarestotais = { name: 'Açúcares totais (g)', g100: 14, g60: 8.3, vd: 0 },
-        acucaresadicionados = { name: 'Açúcares adicionados (g)', g100: 12, g60: 7.2, vd: 14 },
-        proteinas = { name: 'Proteínas (g)', g100: 5.4, g60: 3.2, vd: 6 },
-        gordurastotais = { name: 'Gorduras totais (g)', g100: 9.8, g60: 5.9, vd: 9 },
-        gordurassaturadas = { name: 'Gorduras saturadas (g)', g100: 5.7, g60: 3.4, vd: 17 },
-        fibras = { name: 'Fibras alimentares (g)', g100: 2.7, g60: 1.6, vd: 6 },
-        sodio = { name: 'Sódio (mg)', g100: 47, g60: 28, vd: 1 }
+        valorenergetico = { name: "Valor energético (kcal)", g100: 191, g60: 114, vd: 6 },
+        carboidratos = { name: "Carboidratos (g)", g100: 21, g60: 13, vd: 4 },
+        acucarestotais = { name: "Açúcares totais (g)", g100: 15, g60: 9.1, vd: 0 },
+        acucaresadicionados = { name: "Açúcares adicionados (g)", g100: 11, g60: 6.6, vd: 13 },
+        proteinas = { name: "Proteínas (g)", g100: 3.4, g60: 2, vd: 4 },
+        gordurastotais = { name: "Gorduras totais (g)", g100: 9.6, g60: 5.8, vd: 8 },
+        gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 5.9, g60: 3.5, vd: 17 },
+        gordurastrans = { name: "Gorduras trans (g)", g100: 0.3, g60: 0.2, vd: 15 },
+        sodio = { name: "Sódio (mg)", g100: 55, g60: 33, vd: 1 },
     ],
-    quantsignificativas: "Não contém quantidades significativas de gorduras trans.",
-    maisinfo: []
+    quantsignificativas: "Não contém quantidades significativas de fibras alimentares.",
+    maisinfo: ["Aromatizado artificialmente."],
+    alto_em: ["ALTO EM", "GORDURAS SATURADAS"]
 },
+
 
 chocolatelacreme = {
     name: "CHOCOLATE LA CRÈME",
@@ -335,7 +318,8 @@ chocolatelacreme = {
         sodio = { name: 'Sódio (mg)', g100: 49, g60: 29, vd: 1 }
     ],
     quantsignificativas: "Não contém quantidades significativas de gorduras trans e fibras alimentares.",
-    maisinfo: []
+    maisinfo: [],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO", "GORDURA SATURADA"]
 },
 
 chocolatesensacao = {
@@ -356,7 +340,8 @@ chocolatesensacao = {
     maisinfo: [
         "Contém aromatizante.",
         "Colorido artificialmente."
-    ]
+    ],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO"]
 },
 
 
@@ -376,7 +361,8 @@ chocolatetruafado = {
         sodio = { name: 'Sódio (mg)', g100: 53, g60: 32, vd: 1 }
     ],
     quantsignificativas: "Não contém quantidades significativas de fibras alimentares.",
-    maisinfo: ["Contém aromatizante."]
+    maisinfo: ["Contém aromatizante."],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO", "GORDURA SATURADA"]
 },
 
 chocomenta = {
@@ -397,7 +383,8 @@ chocomenta = {
     maisinfo: [
         "Contém aromatizante sintético idêntico ao natural.",
         "Colorido artificialmente."
-    ]
+    ],
+    alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO", "GORDURA SATURADA"]
 },
 
 coco = {
@@ -415,7 +402,8 @@ coco = {
         sodio = { name: 'Sódio (mg)', g100: 46, g60: 27, vd: 1 }
     ],
     quantsignificativas: "Não contém quantidades significativas de gorduras trans e fibras alimentares.",
-    maisinfo: []
+    maisinfo: [],
+        alto_em: ["ALTO EM", "GORDURA SATURADA"]
 },
 
 cookies = {
@@ -433,7 +421,8 @@ cookies = {
         sodio = { name: 'Sódio (mg)', g100: 53, g60: 32, vd: 1 }
     ],
     quantsignificativas: "Não contém quantidades significativas de gorduras trans e fibras alimentares.",
-    maisinfo: []
+    maisinfo: ['Contém aromatizante.', 'Colorido aritificialmente.', 'Contém derivados de milho e soja transgênicos.'],
+        alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO"]
 },
 
 creme = {
@@ -449,6 +438,25 @@ creme = {
         gordurastotais = { name: 'Gorduras totais (g)', g100: 7.4, g60: 4.4, vd: 7 },
         gordurassaturadas = { name: 'Gorduras saturadas (g)', g100: 4.2, g60: 2.5, vd: 13 },
         sodio = { name: 'Sódio (mg)', g100: 49, g60: 29, vd: 1 }
+    ],
+    quantsignificativas: "Não contém quantidades significativas de gorduras trans e fibras alimentares.",
+    maisinfo: ['Aromatizado artificialmente.', 'Colorido artificialmente.'],
+        alto_em: ["ALTO EM", "AÇÚCAR ADICIONADO"]
+},
+
+deliciadeabacaxi = {
+    name: "DELÍCIA DE ABACAXI",
+    ingredientes: "Ingredientes: água, abacaxi, açúcar, leite em pó integral, glicose líquida, nata, gordura de palma, saborizante em pó de abacaxi [açúcar, amido de milho, regulador de acidez: ácido fumárico, aromatizante artificial e corantes artificiais: amarelo tartrazina (INS 102) e amarelo crepúsculo], mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar e carragena) e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
+    alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, SOJA, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DE-CAJU, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
+    comp: [
+        valorenergetico = { name: 'Valor energético (kcal)', g100: 146, g60: 88, vd: 4 },
+        carboidratos = { name: 'Carboidratos (g)', g100: 21, g60: 13, vd: 4 },
+        acucarestotais = { name: 'Açúcares totais (g)', g100: 16, g60: 13, vd: 0 },
+        acucaresadicionados = { name: 'Açúcares adicionados (g)', g100: 12, g60: 7.4, vd: 15 },
+        proteinas = { name: 'Proteínas (g)', g100: 3.7, g60: 2.2, vd: 4 },
+        gordurastotais = { name: 'Gorduras totais (g)', g100: 7.7, g60: 4.6, vd: 7 },
+        gordurassaturadas = { name: 'Gorduras saturadas (g)', g100: 4.3, g60: 2.6, vd: 13 },
+        sodio = { name: 'Sódio (mg)', g100: 52, g60: 31, vd: 1 }
     ],
     quantsignificativas: "Não contém quantidades significativas de gorduras trans e fibras alimentares.",
     maisinfo: []
