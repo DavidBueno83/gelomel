@@ -101,39 +101,56 @@ sorvete_2 = {
 
 
 
-acai = {
+sorvete_3 = {
+    id: 3,
     name: "AÇAÍ",
     ingredientes: "Ingredientes: polpa de açaí, água, açúcar, dextrose, mistura de hidrocolóides (gelatina, açúcar, mono e diglicerídeos de ácidos graxos, carboximetilcelulose sódica, goma jataí e goma guar) e acidulante: ácido cítrico. CONTÉM GLÚTEN.",
-    alergicos: "ALÉRGICOS: PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, OVO, LEITE, SOJA, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DE-CAJU, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
+    alergicos: "ALÉRGICOS: PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, OVO, LEITE, SOJA, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DO-PARÁ, CASTANHA-DE-CAJU, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
     comp: [
-        valorenergetico = { name: "Valor energético (kcal)", g100: 133, g60: 80, vd: 4 },
-        carboidratos = { name: "Carboidratos (g)", g100: 24, g60: 15, vd: 5 },
-        acucarestotais = { name: "Açúcares totais (g)", g100: 24, g60: 15, vd: 0 },
-        acucaresadicionados = { name: "Açúcares adicionados (g)", g100: 24, g60: 15, vd: 30 },
-        gordurastotais = { name: "Gorduras totais (g)", g100: 4.9, g60: 3, vd: 5 },
-        gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 0.2, g60: 0.1, vd: 1 },
-        fibras = { name: "Fibras alimentares (g)", g100: 6.8, g60: 4.1, vd: 16 }
+        { name: 'Valor energético (kcal)', g100: 133, g60: 80, vd: 4 },
+        { name: 'Carboidratos (g)', g100: 24, g60: 15, vd: 5 },
+        { name: 'Açúcares totais (g)', g100: 24, g60: 15, vd: 0 },
+        { name: 'Açúcares adicionados (g)', g100: 24, g60: 15, vd: 30 },
+        { name: 'Gorduras totais (g)', g100: 4.9, g60: 3, vd: 5 },
+        { name: 'Gorduras saturadas (g)', g100: 0.2, g60: 0.1, vd: 1 },
+        { name: 'Fibras alimentares (g)', g100: 6.8, g60: 4.1, vd: 16 }
     ],
     quantsignificativas: "Não contém quantidades significativas de proteínas, gorduras trans e sódio.",
-    maisinfo: []
+    maisinfo: [],
+    alto_em: [
+        "AÇÚCAR ADICIONADO"
+    ]
 },
 
-acaitigela = {
+
+
+
+
+sorvete_4 = {
+    id: 4,
     name: "AÇAÍ PARA TIGELA",
     ingredientes: "Ingredientes: polpa de açaí, água, açúcar, dextrose, mistura de hidrocolóides (gelatina, açúcar, mono e diglicerídeos de ácidos graxos, carboximetilcelulose sódica, goma jataí e goma guar) e acidulante: ácido cítrico. CONTÉM GLÚTEN.",
-    alergicos: "ALÉRGICOS: PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, OVO, LEITE, SOJA, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DE-CAJU, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
+    alergicos: "ALÉRGICOS: PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, OVO, LEITE, SOJA, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DO-PARÁ, CASTANHA-DE-CAJU, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
     comp: [
-        valorenergetico = { name: "Valor energético (kcal)", g100: 133, g60: 80, vd: 4 },
-        carboidratos = { name: "Carboidratos (g)", g100: 24, g60: 15, vd: 5 },
-        acucarestotais = { name: "Açúcares totais (g)", g100: 24, g60: 15, vd: 0 },
-        acucaresadicionados = { name: "Açúcares adicionados (g)", g100: 24, g60: 15, vd: 30 },
-        gordurastotais = { name: "Gorduras totais (g)", g100: 4.9, g60: 3, vd: 5 },
-        gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 0.2, g60: 0.1, vd: 1 },
-        fibras = { name: "Fibras alimentares (g)", g100: 6.8, g60: 4.1, vd: 16 }
+        { name: 'Valor energético (kcal)', g100: 133, g60: 80, vd: 4 },
+        { name: 'Carboidratos (g)', g100: 24, g60: 15, vd: 5 },
+        { name: 'Açúcares totais (g)', g100: 24, g60: 15, vd: 0 },
+        { name: 'Açúcares adicionados (g)', g100: 24, g60: 15, vd: 30 },
+        { name: 'Gorduras totais (g)', g100: 4.9, g60: 3, vd: 5 },
+        { name: 'Gorduras saturadas (g)', g100: 0.2, g60: 0.1, vd: 1 },
+        { name: 'Fibras alimentares (g)', g100: 6.8, g60: 4.1, vd: 16 }
     ],
     quantsignificativas: "Não contém quantidades significativas de proteínas, gorduras trans e sódio.",
-    maisinfo: []
-},
+    maisinfo: [],
+    alto_em: [
+        "AÇÚCAR ADICIONADO"
+    ]
+}
+
+
+
+
+
 
 ameixa = {
     name: "AMEIXA",
