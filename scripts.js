@@ -1,6 +1,7 @@
 const list = [
 
-    setebelo = {
+  sorvete_1 =
+{ id: 1,
     name: "7 BELO",
     ingredientes: "Ingredientes: água, açúcar, leite em pó integral, glicose líquida, nata, preparado de frutas silvestres (açúcar, amora, água, xarope de glicose, mirtilo, acidulante: ácido cítrico, estabilizante: pectina, conservante: sorbato de potássio, aromatizante e corantes artificiais: ponceau 4r e vermelho amaranto), pasta saborizante de framboesa (água, amido modificado, amido, edulcorante: sorbitol, aromatizante sintético idêntico ao natural, acidulante: ácido cítrico, corante artificial: azorrubina e conservante: sorbato de potássio), gordura de palma, mistura de emulsificantes e hidrocolóides (mono e diglicerídeos de ácidos graxos, goma jataí, goma guar e carragena), regulador de acidez: ácido cítrico e fermento químico: bicarbonato de sódio. CONTÉM GLÚTEN. CONTÉM LACTOSE.",
     alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, AVELÃS, SOJA, CASTANHA-DE-CAJU, CASTANHA-DO-PARÁ, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
@@ -69,26 +70,36 @@ const list = [
     
 },
 
-abacaxihortela = {
+
+
+sorvete_2 = {
+    id: 2,
     name: "ABACAXI COM HORTELÃ",
-    ingredientes: "Ingredientes: abacaxi, água, açúcar, mix de estabilizantes em pó (dextrose, xarope de glucose em pó, gordura vegetal, proteína do leite, ésteres de mono e diglicerídeos de ácidos graxos com ácido lático, glucose em pó, alginato de propilenglicol, goma jataí, carboximetilcelulose, goma guar, maltodextrina, proteína de soja e acidulante: ácido cítrico), hortelã, saborizante de abacaxi em pó [açúcar, amido de milho, regulador de acidez: ácido fumárico, aromatizante artificial e corantes artificiais: amarelo tartrazina (INS 102) e amarelo crepúsculo] e pó estabilizante para sorvetes (açúcar e espessantes: goma guar, goma xantana e carboximetilcelulose). CONTÉM GLÚTEN.",
+    ingredientes: "Ingredientes: abacaxi, água, açúcar, mix de estabilizantes em pó (dextrose, xarope de glucose em pó, gordura vegetal, proteína do leite, ésteres de mono e diglicerídeos de ácidos graxos com ácido lático, glucose em pó, alginato de propileno glicol, goma jataí, carboximetilcelulose, goma guar, maltodextrina, proteína de soja e acidulante: ácido cítrico), hortelã, saborizante de abacaxi em pó [açúcar, amido de milho, regulador de acidez: ácido fumárico, aromatizante artificial e corantes artificiais: amarelo tartrazina (INS 102) e amarelo crepúsculo] e pó estabilizante para sorvetes (açúcar e espessantes: goma guar, goma xantana e carboximetilcelulose). CONTÉM GLÚTEN.",
     alergicos: "ALÉRGICOS: CONTÉM DERIVADOS DE LEITE E SOJA. PODE CONTER TRIGO, CENTEIO, CEVADA, AVEIA E SUAS ESTIRPES HIBRIDIZADAS, AMENDOIM, AMÊNDOA, AVELÃS, CASTANHA-DO-PARÁ, CASTANHA-DE-CAJU, MACADÂMIAS, NOZES, PECÃS, PISTACHES, PINOLI E CASTANHAS.",
     comp: [
-        valorenergetico = { name: "Valor energético (kcal)", g100: 137, g60: 82, vd: 4 },
-        carboidratos = { name: "Carboidratos (g)", g100: 34, g60: 20, vd: 7 },
-        acucarestotais = { name: "Açúcares totais (g)", g100: 28, g60: 17, vd: 0 },
-        acucaresadicionados = { name: "Açúcares adicionados (g)", g100: 28, g60: 17, vd: 34 },
-        proteinas = { name: "Proteínas (g)", g100: 0.6, g60: 0.3, vd: 1 },
-        gordurastotais = { name: "Gorduras totais (g)", g100: 0.5, g60: 0.3, vd: 0 },
-        gordurassaturadas = { name: "Gorduras saturadas (g)", g100: 0.5, g60: 0.3, vd: 2 },
-        sodio = { name: "Sódio (mg)", g100: 15, g60: 9.1, vd: 0 }
+        { name: 'Valor energético (kcal)', g100: 137, g60: 82, vd: 4 },
+        { name: 'Carboidratos (g)', g100: 34, g60: 20, vd: 7 },
+        { name: 'Açúcares totais (g)', g100: 28, g60: 17, vd: 0 },
+        { name: 'Açúcares adicionados (g)', g100: 28, g60: 17, vd: 34 },
+        { name: 'Proteínas (g)', g100: 0.6, g60: 0.3, vd: 1 },
+        { name: 'Gorduras totais (g)', g100: 0.5, g60: 0.3, vd: 0 },
+        { name: 'Gorduras saturadas (g)', g100: 0.5, g60: 0.3, vd: 2 },
+        { name: 'Sódio (mg)', g100: 15, g60: 9, vd: 0 }
     ],
     quantsignificativas: "Não contém quantidades significativas de fibras alimentares e gorduras trans.",
     maisinfo: [
         "Aromatizado artificialmente.",
         "Colorido artificialmente."
+    ],
+    alto_em: [
+        "AÇÚCAR ADICIONADO"
     ]
-},
+}
+
+
+
+
 
 acai = {
     name: "AÇAÍ",
