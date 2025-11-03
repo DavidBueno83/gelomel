@@ -95,7 +95,7 @@ sorvete_2 = {
     alto_em: [
         "AÇÚCAR ADICIONADO"
     ]
-}
+},
 
 
 
@@ -145,7 +145,7 @@ sorvete_4 = {
     alto_em: [
         "AÇÚCAR ADICIONADO"
     ]
-}
+},
 
 
 
