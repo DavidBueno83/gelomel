@@ -56,14 +56,13 @@ main{
 }
 
 .apresentation{
-    padding-top: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 20px;
     color: white;
-    padding: 140px 20px 40px 20px;
+    padding: 140px 20px  20px;
 }
 
 .list-icecream{
@@ -283,6 +282,16 @@ main{
         display: none;
     }
 
+
+.checkboxs{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px 0;
+    align-items: center;
+    width: 100%;
+}
 
 @media(max-width: 400px){
 
